@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lost"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/nik17/projects/Lost/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lost">
+				<Option output="C:/Users/nik17/projects/Lost/cmake-build-debug/Lost.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/nik17/projects/Lost/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/nik17/projects/Lost"/>
+					<Add directory="C:/Users/nik17/projects/Lost/include"/>
+					<Add directory="C:/Users/nik17/projects/Lost/lib/BearLibTerminal/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lost"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lost/fast">
+				<Option output="C:/Users/nik17/projects/Lost/cmake-build-debug/Lost.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/nik17/projects/Lost/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/nik17/projects/Lost"/>
+					<Add directory="C:/Users/nik17/projects/Lost/include"/>
+					<Add directory="C:/Users/nik17/projects/Lost/lib/BearLibTerminal/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lost/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lint">
+				<Option working_dir="C:/Users/nik17/projects/Lost/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 lint"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/nik17/projects/Lost/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/nik17/projects/Lost/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/nik17/projects/Lost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/nik17/projects/Lost/include/Controls.h">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/include/FindReadFIle.h">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/include/Money.h">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/include/MoneyManager.h">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/include/Player.h">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/include/Reader.h">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/include/StepCounter.h">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/include/Wall.h">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/include/WallManager.h">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/include/math-utils.h">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/src/Controls.cpp">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/src/FindReadFIle.cpp">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/src/Money.cpp">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/src/MoneyManager.cpp">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/src/Player.cpp">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/src/StepCounter.cpp">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/src/Wall.cpp">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/src/WallManager.cpp">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/src/main.cpp">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/src/math_utils.cpp">
+			<Option target="Lost"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/CMake/CppLint.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/nik17/projects/Lost/CMake/FindBearLibTerminal.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
